@@ -1,13 +1,17 @@
 
 
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Construction &amp; Remodeling in  Austin,  TX 78701 | Ozark Deck Company |  Home </title>
+        <title>Construction &amp; Remodeling in  Rogers, Arkansas | Ozark Deck Company |  Home</title>
+        <meta name="description" content="Ozark deck company is a veteran owned and operated business servicing all of Northwest Arkansas. We are fully licensed, insured, and guarantee our work!">
         <!-- <title>ProPhone Templates</title> -->
         <!-- TailwindCSS  -->
         <!-- <link rel="stylesheet" type="text/css" href="/staticfiles/landing_page_gen/tailwind.css"> -->
@@ -18,7 +22,7 @@
            
 
         
-        <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/output.css" rel="stylesheet">
+        <link defer href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/output.css" rel="stylesheet">
         <!-- Include Scripts -->
         <!-- Header Component, only used for presentation -->
 
@@ -34,7 +38,7 @@
 <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 <!-- Focus Visible Polyfill -->
 <script defer src="https://unpkg.com/focus-visible@5.2.0/dist/focus-visible.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script> -->
         <style>
@@ -58,7 +62,7 @@
                 --color-primary-foreground: hsl(0, 0%, var(--switch));
             }
         </style>
-                <script type="text/javascript">
+                <script type="text/javascript" defer>
                     function send_sms(slug){
                         console.log('send_sms', slug)
                         // var sender_fname = $(`#${form_num}-first-name`).val()
@@ -92,8 +96,7 @@
                         var sender_services = ""
         
                         console.log("text", slug, sender_fname, sender_lname, sender_number, sender_message)
-                        // return ' bucks'
-                        // fetch('http://127.0.0.1:8000/sms/' + slug , {
+
                         fetch('https://prophone.herokuapp.com/sms/' + slug , {
                             method: 'POST',
                             body: JSON.stringify({
@@ -896,7 +899,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5dc2bce8-060d-4d15-985a-a04910c51863.jpeg"
-                alt=""
+                loading="lazy"
+                alt="Construction &amp; Remodeling company Ozark Deck Company in  Rogers, Arkansas"
             />
         </div>
         
@@ -913,7 +917,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/80d8430d-dc78-452d-8199-4e3e1fdc959d.jpeg"
-                alt=""
+                loading="lazy"
+                alt="Construction &amp; Remodeling company Ozark Deck Company in  Rogers, Arkansas"
             />
         </div>
         
@@ -930,7 +935,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/7edcba89-4121-4beb-bd19-3a5ecab954ae.jpeg"
-                alt=""
+                loading="lazy"
+                alt="Construction &amp; Remodeling company Ozark Deck Company in  Rogers, Arkansas"
             />
         </div>
         
@@ -947,7 +953,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/b24459d3-dc08-44e6-bc59-890dca342546.jpeg"
-                alt=""
+                loading="lazy"
+                alt="Construction &amp; Remodeling company Ozark Deck Company in  Rogers, Arkansas"
             />
         </div>
         
@@ -964,7 +971,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/d0e255cf-2ebd-4920-9d5e-dbe2f002e518.jpeg"
-                alt=""
+                loading="lazy"
+                alt="Construction &amp; Remodeling company Ozark Deck Company in  Rogers, Arkansas"
             />
         </div>
         
@@ -1094,7 +1102,8 @@
                               
                                   
                                       <img 
-                                        src="https://landing-page-app-hero-images.s3.amazonaws.com/media/62f7cb22-dbd1-4839-8fb6-1a2c28fc2327.jpeg"   alt="About Us Image"  
+                                        src="https://landing-page-app-hero-images.s3.amazonaws.com/media/62f7cb22-dbd1-4839-8fb6-1a2c28fc2327.jpeg"
+                                        alt="Ozark Deck Company team in  Rogers, Arkansas - people or person"
                                         class="w-auto h-auto max-h-full max-w-full"
                                         loading="lazy"
                                       >
@@ -1131,7 +1140,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                               <a
                                 target="_blank" rel="noopener noreferrer"   
                                   class="inline-flex items-center justify-center p-1 rounded-full  group focus:outline-none focus:ring-2 ring-white ring-offset-2 ring-offset-primary"
-                                  href="//facebook.com/ozark-deck-company-115130473607623"
+                                  href="https://facebook.com/ozark-deck-company-115130473607623"
                               >
                                   <!-- Screen Reader Fallback -->
                                   <span class="sr-only">Facebook</span>
@@ -1249,7 +1258,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                     >
                         <!-- Whole Card is a link -->
                         <a
-                            href="service-Custom-Deck-Construction"
+                            href="//service-Custom-Deck-Construction"
                             style="transform-style: preserve-3d"
                             class="text-center relative block overflow-hidden transition duration-500  rotate-y-180 sm:rotate-y-0 sm:group-hover:rotate-y-180 aspect-w-16 aspect-h-9 sm:aspect-w-1 sm:aspect-h-1 rounded-2xl focus:ring-2 focus:outline-none ring-primary ring-offset-2"
                             aria-label="Custom Deck Construction"
@@ -1291,7 +1300,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1304,7 +1313,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                     >
                         <!-- Whole Card is a link -->
                         <a
-                            href="service-Custom-Pergolas-Construction"
+                            href="//service-Custom-Pergolas-Construction"
                             style="transform-style: preserve-3d"
                             class="text-center relative block overflow-hidden transition duration-500  rotate-y-180 sm:rotate-y-0 sm:group-hover:rotate-y-180 aspect-w-16 aspect-h-9 sm:aspect-w-1 sm:aspect-h-1 rounded-2xl focus:ring-2 focus:outline-none ring-primary ring-offset-2"
                             aria-label="Custom Pergolas Construction"
@@ -1346,7 +1355,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1594,7 +1603,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="" /> -->
                             
@@ -1615,7 +1624,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="" /> -->
                             
@@ -1636,7 +1645,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="" /> -->
                             
@@ -1657,7 +1666,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="" /> -->
                             
@@ -1678,7 +1687,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="" /> -->
                             
@@ -1699,7 +1708,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="" /> -->
                             
@@ -1720,7 +1729,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="" /> -->
                             
@@ -1741,7 +1750,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="" /> -->
                             
@@ -1762,7 +1771,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="" /> -->
                             
@@ -1783,7 +1792,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="" /> -->
                             
@@ -1804,7 +1813,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="" /> -->
                             
@@ -1825,7 +1834,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="" /> -->
                             
@@ -1846,7 +1855,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="" /> -->
                             
@@ -1867,7 +1876,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="" /> -->
                             
@@ -1888,7 +1897,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="" /> -->
                             
@@ -1907,11 +1916,11 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 15; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" loading="lazy"/>
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1928,11 +1937,11 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" loading="lazy"/>
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1951,7 +1960,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="" /> -->
                             
@@ -2016,7 +2025,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2f141b70-e2b9-406c-86e8-ccecc87dd207.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2024,7 +2033,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2c3d5c25-e42e-43ad-b367-bae53f3b3978.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2032,7 +2041,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/948874f5-0388-4dba-b268-e05da48a8d36.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2040,7 +2049,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/57b4eb9e-af72-4c20-a48d-08db4b07cb1d.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2048,7 +2057,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d8a082d5-d10f-41c1-9dc5-691cd0ceed80.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2056,7 +2065,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8c706a8b-458d-46e8-9a74-840a73ccfd08.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2064,7 +2073,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 6">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a253e33f-9676-49b2-80a2-c1194d2398ba.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2072,7 +2081,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 7">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/451c7510-9ca4-4b9a-944e-97afbcef6879.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2080,7 +2089,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 8">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/16691e91-1d50-493f-8d8f-b65e20ce33b9.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2088,7 +2097,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 9">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1addddc4-6f3e-4004-a857-335b79099e04.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2096,7 +2105,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 10">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2bce3901-1332-4c1c-adc5-57683bb4a082.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2104,7 +2113,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/717bef6a-9741-4b40-a932-8ace412b7b47.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2112,7 +2121,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 12">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c25589af-686b-4ba2-8e12-17c96971a82f.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2120,7 +2129,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 13">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b3b2f76d-99e1-4694-ac18-de8c0bed2599.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2128,7 +2137,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 14">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9fffbeed-fbf7-4189-bb91-e47617367769.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2136,7 +2145,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 15">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2144,7 +2153,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 16">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b137624-16a2-4731-be31-99e95e3eda9a.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a87afde0-a80e-4160-a0ec-4e36b443424d.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2152,7 +2161,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 17">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cac5241f-9473-43e6-9f59-2db0db9fc447.jpeg" alt="Custom Deck Construction for Ozark Deck Company in  Rogers, Arkansas" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2296,7 +2305,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2379,7 +2403,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2462,7 +2501,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2545,7 +2599,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2635,7 +2704,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2718,7 +2802,22 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2790,21 +2889,33 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        Brian Emde &amp; crew built a beautiful deck for us. They were professional, fun &amp; funny, cleaned up each day including blowing deck(s), communicated any changes, offered suggestions for improvement, kept to their timeline, assisted with permits, and were responsive with follow ups. 
-They put extra supports in place both in size &amp; quantity. Their signature metal post brackets add style. 
-Even the inspector said when I get ready to build a deck I’m calling him!
-Highly recommend!
+                                        We love our deck Brian and his crew built! Brian is very personable and professional. He also was very prompt with follow up questions or concerns we had. We would definitely use him again!
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Jackie Gaine</span>
-                                        <span class="block font-medium"> Rogers, AR</span>
+                                        <span class="block font-medium text-primary">Jane S.</span>
+                                        <span class="block font-medium">Bentonville, AR</span>
                                     </div>
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2883,18 +2994,33 @@ Highly recommend!
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        We love our deck Brian and his crew built! Brian is very personable and professional. He also was very prompt with follow up questions or concerns we had. We would definitely use him again!
+                                        Brian was great to work with! He and his crew were professional and built a quality deck, starting and completing the job once we hired them. He always took my calls/questions and we love the finished product. Would recommend!
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Jane S.</span>
-                                        <span class="block font-medium">Bentonville, AR</span>
+                                        <span class="block font-medium text-primary">Amy C.</span>
+                                        <span class="block font-medium">Joplin, MO</span>
                                     </div>
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -2966,18 +3092,36 @@ Highly recommend!
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        Brian was great to work with! He and his crew were professional and built a quality deck, starting and completing the job once we hired them. He always took my calls/questions and we love the finished product. Would recommend!
+                                        Brian Emde &amp; crew built a beautiful deck for us. They were professional, fun &amp; funny, cleaned up each day including blowing deck(s), communicated any changes, offered suggestions for improvement, kept to their timeline, assisted with permits, and were responsive with follow ups. 
+They put extra supports in place both in size &amp; quantity. Their signature metal post brackets add style. 
+Even the inspector said when I get ready to build a deck I’m calling him!
+Highly recommend!
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Amy C.</span>
-                                        <span class="block font-medium">Joplin, MO</span>
+                                        <span class="block font-medium text-primary">Jackie Gaine</span>
+                                        <span class="block font-medium"> Rogers, AR</span>
                                     </div>
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -3060,7 +3204,22 @@ Highly recommend!
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">None</span>
+                                        <span class="sr-only">Facebook</span>
+                                        
+                                        <svg
+                                            aria-hidden="true"
+                                            class="text-blue-900 transition-transform w-7 h-7"
+                                            viewBox="0 0 30 30"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
                                         
                                     
                                     </div>
@@ -3101,7 +3260,7 @@ Highly recommend!
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="40894"
+                                aria-controls="41191"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">What&#x27;s the best way to reach you?</span>
@@ -3121,7 +3280,7 @@ Highly recommend!
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="40894">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="41191">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Give us a call or send us a text at . Thanks!</p>
                         </dd>
@@ -3134,7 +3293,7 @@ Highly recommend!
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="40895"
+                                aria-controls="41192"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">Do you provide free estimates?</span>
@@ -3154,7 +3313,7 @@ Highly recommend!
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="40895">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="41192">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -3167,7 +3326,7 @@ Highly recommend!
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="40896"
+                                aria-controls="41193"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">How are you different?</span>
@@ -3187,7 +3346,7 @@ Highly recommend!
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="40896">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="41193">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -3256,7 +3415,7 @@ Highly recommend!
                 <!-- Your map here -->
                 <div class="w-full h-full bg-gray-400">
                     <div style="height:500px; width:100%;" id="map"></div>
-                    <script >
+                    <script defer>
                         async function coordinate(url) {
                             const res = await fetch(url)
                             const coordinates = await res.json()
@@ -3314,6 +3473,7 @@ Highly recommend!
                     </script>
                     <script
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSw3qRocbSgfTrtxZbCsTjSHZaaJuUXF4&callback=initMap&libraries=&v=weekly"
+                    defer
                     async
                   ></script> 
               
@@ -3395,7 +3555,7 @@ Highly recommend!
               <div class="flex space-x-6">
                   <!-- are these conditional? and linked to corret links? -->
                   
-                  <a target="_blank" rel="noopener noreferrer" href="//facebook.com/ozark-deck-company-115130473607623" class="text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 ring-white ring-opacity-75">
+                  <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/ozark-deck-company-115130473607623" class="text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 ring-white ring-opacity-75">
                       <span class="sr-only">Facebook</span>
                       <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                           <path
@@ -3468,6 +3628,13 @@ Highly recommend!
                           
                           
                           
+                          <li>
+                              <a
+                                  href='sitemap.xml'
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Sitemap</a
+                              >
+                          </li>
                       </ul>
                   </div>
                   <!-- Services Links -->
@@ -3749,22 +3916,22 @@ Highly recommend!
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-147320"
-                                            name="147320"
+                                            id="contact-service-148145"
+                                            name="148145"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-147320" class="ml-3 text-sm font-medium text-gray-700">Custom Deck Construction</label>
+                                        <label for="contact-label-service-148145" class="ml-3 text-sm font-medium text-gray-700">Custom Deck Construction</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-147321"
-                                            name="147321"
+                                            id="contact-service-148146"
+                                            name="148146"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-147321" class="ml-3 text-sm font-medium text-gray-700">Custom Pergolas Construction</label>
+                                        <label for="contact-label-service-148146" class="ml-3 text-sm font-medium text-gray-700">Custom Pergolas Construction</label>
                                     </div>
                                 
                             </div>
@@ -3876,7 +4043,7 @@ Highly recommend!
                                 ring-primary ring-opacity-75 ring-offset-2
                             "
                         >
-                            Send
+                            Send bucks 
                     </div>
                     </div>
                 </form>
@@ -3926,7 +4093,7 @@ Highly recommend!
                     <!-- Yelp Link -->
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer" href="//https://facebook.com/Ozark-Deck-Company-115130473607623/reviews" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/Ozark-Deck-Company-115130473607623/reviews" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
                     </li>
                     
                 </ul>
